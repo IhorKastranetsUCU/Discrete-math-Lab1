@@ -193,3 +193,7 @@ def count_transitive_relations(n: int) -> int:
         if check_tranz(matrix):
             count += 1
     return count
+
+if __name__ == '__main__':
+    import doctest
+    doctest.testmod()
